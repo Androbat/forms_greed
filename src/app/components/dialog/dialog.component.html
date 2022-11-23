@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Add personal info</h1>
+<div mat-dialog-content>
+  <!-- informationForm is the form in
+  Dialog file that creates a formGroup. So, here we are binding that.
+  -->
+  <form [formGroup]="informationForm">
+    <mat-form-field appearance="outline">
+      <mat-label>First Name</mat-label>
+      <input formControlName="firstName" matInput placeholder="First name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Last Name</mat-label>
+      <input formControlName="lastName" matInput placeholder="Last name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Age</mat-label>
+      <input formControlName="age" matInput placeholder="Age">
+    </mat-form-field>
+  </form>
+
+  <!-- Button for the submit form -->
+  <div mat-dialog-actions align="end">
+    <button mat-raised-button color="warn" matDialogClose>Close</button>
+    <button mat-raised-button color="primary" (click)="addInfo()">Save</button>
+
+  </div>
+</div>
+

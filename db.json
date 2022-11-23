@@ -1,0 +1,32 @@
+{
+  "information": [
+    {
+      "firstName": "Manuel",
+      "lastName": "Reyes ",
+      "age": "25",
+      "id": 1
+    },
+    {
+      "firstName": "Samuel",
+      "lastName": "Jimenez",
+      "age": "15",
+      "id": 2
+    },
+    {
+      "firstName": "Jose",
+      "lastName": "Reyes",
+      "age": "35",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
